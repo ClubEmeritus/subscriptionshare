@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1052915061614",
+    "firebase_url": "https://subscriptionshare-cd06b.firebaseio.com",
+    "project_id": "subscriptionshare-cd06b",
+    "storage_bucket": "subscriptionshare-cd06b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052915061614:android:cfdecd57380069798e677f",
+        "android_client_info": {
+          "package_name": "club.emeritus.subscriptionshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052915061614-20afp10qf1au8g1b7bu5gadpd00ioltn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "club.emeritus.subscriptionshare",
+            "certificate_hash": "c3f8c61571aa733e3339136554054d42c010a9c4"
+          }
+        },
+        {
+          "client_id": "1052915061614-465nkgcvl5qbhu51aiadv4hj73e3pv21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtcdD70xUPwQJj_VVR-erjFpg3E0i2yro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052915061614-465nkgcvl5qbhu51aiadv4hj73e3pv21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
