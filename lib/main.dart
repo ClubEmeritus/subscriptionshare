@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:subscription_share/createCircle.dart';
+import 'package:subscription_share/showCircles.dart';
 
 void main() {
   runApp(MyApp());
@@ -40,6 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
         context, MaterialPageRoute(builder: (context) => CreateCircle()));
   }
 
+  void _redirectToCircles() {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => ShowCircles()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,6 +63,11 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            OutlineButton(
+              onPressed: _redirectToCircles,
+              splashColor: Colors.greenAccent[500],
+              child: Text('ShowCircles'),
+            )
           ],
         ),
       ),
